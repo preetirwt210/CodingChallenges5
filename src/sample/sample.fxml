@@ -1,8 +1,9 @@
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.VBox?>
-<VBox fx:controller="sample.Controller"
-      xmlns:fx="http://javafx.com/fxml" >
+<?import javafx.scene.layout.TilePane?>
+<TilePane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" >
     <Button text="button One"/>
     <Button text="button Two"/>
     <Button text="button Three"/>
@@ -14,7 +15,7 @@
     <Button text="button Nine"/>
     <Button text="button Ten"/>
 
-</VBox>
+</TilePane>
 <!--<?import javafx.scene.control.Button?>-->
 <!--<?import javafx.scene.layout.BorderPane?>-->
 <!--<?import javafx.scene.layout.HBox?>-->
