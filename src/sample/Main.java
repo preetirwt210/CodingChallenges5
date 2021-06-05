@@ -18,16 +18,9 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-    //        GridPane root=new GridPane();
-    //        root.setAlignment(Pos.CENTER);
-    //        root.setHgap(10);
-    //        root.setVgap(10);
-    //        Label greetings=new Label("Welcome to JavaFX..");
-    //        greetings.setTextFill(Color.BLUE);
-    //        greetings.setFont(Font.font("Times New Roman", FontWeight.BOLD,30));
-    //        root.getChildren().add(greetings);
-        primaryStage.setTitle("Hello JavaFX!");
-        primaryStage.setScene(new Scene(root, 500, 275));
+
+        primaryStage.setTitle("Hello World!");
+        primaryStage.setScene(new Scene(root, 800, 500));
         primaryStage.show();
     }
 
